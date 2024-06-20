@@ -9,7 +9,7 @@
 
 /* Rotor group headings */
 .flipdown.flipdown__theme-dark .rotor-group-heading:before {
-    color: #000000;
+    color: #292F36;
 }
 
 /* Delimeters */
@@ -22,15 +22,15 @@
 .flipdown.flipdown__theme-dark .rotor,
 .flipdown.flipdown__theme-dark .rotor-top,
 .flipdown.flipdown__theme-dark .rotor-leaf-front {
-    color: #FFFFFF;
-    background-color: #151515;
+    color: #292F36;
+    background-color: #12F7D6;
 }
 
 /* Rotor bottoms */
 .flipdown.flipdown__theme-dark .rotor-bottom,
 .flipdown.flipdown__theme-dark .rotor-leaf-rear {
     color: #EFEFEF;
-    background-color: #202020;
+    background-color: #12F7D6;
 }
 
 /* Hinge */
@@ -53,22 +53,22 @@
 /* Delimeters */
 .flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):before,
 .flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    background-color: #DDDDDD;
+    background-color: #12F7D6;
 }
 
 /* Rotor tops */
 .flipdown.flipdown__theme-light .rotor,
 .flipdown.flipdown__theme-light .rotor-top,
 .flipdown.flipdown__theme-light .rotor-leaf-front {
-    color: #222222;
-    background-color: #DDDDDD;
+    color: #292F36;
+    background-color: #12F7D6;
 }
 
 /* Rotor bottoms */
 .flipdown.flipdown__theme-light .rotor-bottom,
 .flipdown.flipdown__theme-light .rotor-leaf-rear {
     color: #333333;
-    background-color: #EEEEEE;
+    background-color: #12F7D6;
 }
 
 /* Hinge */

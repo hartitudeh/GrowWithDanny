@@ -1,3 +1,8 @@
+
+
+
+
+// Flipdown code here
 document.addEventListener('DOMContentLoaded', () => {
 
   // Unix timestamp (in seconds) to count down to
@@ -13,14 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .ifEnded(() => {
       console.log('The countdown has ended!');
     });
-
-  // Toggle theme
-//   var interval = setInterval(() => {
-//     let body = document.body;
-//     body.classList.toggle('light-theme');
-//     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-//     body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-//   }, 5000);
 
   // Show version number
   var ver = document.getElementById('ver');
@@ -71,3 +68,5 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+

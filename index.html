@@ -326,22 +326,23 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form action="#">
+            <form action="#" id="contactForm">
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Name" required />
+                  <input type="text" placeholder="Name" id="name" required />
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Email" required />
+                  <input type="email" placeholder="Email" id="email" required />
                 </div>
               </div>
               <div class="field">
-                <input type="text" placeholder="Subject" required />
+                <input type="text" placeholder="Subject" id="subject" required />
               </div>
               <div class="field textarea">
                 <textarea
                   cols="30"
                   rows="10"
+                  id="message"
                   placeholder="Message.."
                   required
                 ></textarea>
@@ -412,7 +413,9 @@
         </p>
       </footer>
     </section>
+    
 
+    <script src="js/message.js"></script>
     <script src="js/about.js"></script>
     <script src="js/stickyNav.js"></script>
     <script src="js/flipdown.js"></script>

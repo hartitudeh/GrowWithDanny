@@ -106,12 +106,12 @@
 }
 
 @media screen and (max-width: 768px) {
-	.arrow {
+	/* .arrow {
 		display: none;
-	}
+	} */
 
 	.testimonial .title::after{
-		content: "testimonys";
+		content: "testimonies";
 	}
 
 	.review-wrap {

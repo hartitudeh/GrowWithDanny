@@ -6,7 +6,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const message = document.getElementById('message').value;
     console.log(name)
   
-    const whatsappNumber = '2347083777336';
+    const whatsappNumber = '2349168968892';
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent( subject + ' - My name is ' + name + ', ' + message)}`;
   
     window.open(whatsappLink, "_blank");

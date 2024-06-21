@@ -13,51 +13,51 @@ let isChickenVisible;
 let people = [
 	{
 		photo:
-			'url("https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg")',
-		name: "Susan Smith",
+			'url("../images/testimonials/daniel.jpg")',
+		name: "Master Daniel",
 		profession: "WRITER",
 		description: "The AMAP course has been a game-changer for my career. The comprehensive curriculum and hands-on training provided me with the skills and confidence needed to excel in the field. The instructors are industry experts who genuinely care about their students' success. I highly recommend this course to anyone looking to advance their career."
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2019/02/11/20/20/woman-3990680_960_720.jpg')",
-		name: "Anna Grey",
-		profession: "UFC FIGHTER",
+			"url('../images/testimonials/david.jpg')",
+		name: "Master Mfon David",
+		profession: "WRITER",
 		description: "The AKDP course exceeded my expectations in every way. The detailed modules and real-world applications have significantly improved my knowledge and expertise. The support from the course instructors and the community is unparalleled. This course is a must for anyone serious about professional development."	
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg')",
-		name: "Branson Cook",
-		profession: "ACTOR",
+			"url('../images/testimonials/herry.jpg')",
+		name: "Miss Herry",
+		profession: "WRITER",
 		description: "Enrolling in the CIIM course was one of the best decisions I've made. The course content is thorough and up-to-date with current industry trends. The interactive sessions and practical assignments have greatly enhanced my skills. I feel more equipped than ever to tackle challenges in my career. Highly recommended!"
 	},
 
 	{
 		photo:
-			"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
-		name: "Julius Grohn",
-		profession: "PROFESSIONAL",
+			"url('../images/testimonials/naomi.jpg')",
+		name: "Miss Naomi Okon",
+		profession: "WRITER",
 		description: "The Ghost Writer course has transformed my writing abilities. The in-depth lessons and constructive feedback have helped me hone my craft and understand the intricacies of ghostwriting. The course structure is clear and engaging, making learning a pleasure. I now feel confident to take on ghostwriting projects professionally."
 	},
 
-	{
-		photo:
-			"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
-		name: "Julius Grohn",
-		profession: "PROFESSIONAL CHILD",
-		description: "The AKDP course is a comprehensive program that covers all the necessary aspects to excel in the field. The interactive learning environment and the supportive instructors made the experience enjoyable and enriching. I've learned so much and feel more confident in my abilities. This course is a fantastic investment in your future."
-	},
+	// {
+	// 	photo:
+	// 		"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
+	// 	name: "Julius Grohn",
+	// 	profession: "PROFESSIONAL CHILD",
+	// 	description: "The AKDP course is a comprehensive program that covers all the necessary aspects to excel in the field. The interactive learning environment and the supportive instructors made the experience enjoyable and enriching. I've learned so much and feel more confident in my abilities. This course is a fantastic investment in your future."
+	// },
 
-	{
-		photo:
-			"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
-		name: "Julius Grohn",
-		profession: "CHILD",
-		description: "The AMAP course provided me with invaluable insights and practical knowledge. The course is well-organized, and the instructors are passionate and knowledgeable. The skills I've gained have already started to pay off in my job. I couldn't be happier with my decision to enroll in this course."
-	}
+	// {
+	// 	photo:
+	// 		"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
+	// 	name: "Julius Grohn",
+	// 	profession: "CHILD",
+	// 	description: "The AMAP course provided me with invaluable insights and practical knowledge. The course is well-organized, and the instructors are passionate and knowledgeable. The skills I've gained have already started to pay off in my job. I couldn't be happier with my decision to enroll in this course."
+	// }
 ];
 
 imgDiv.style.backgroundImage = people[0].photo;

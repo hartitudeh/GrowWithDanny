@@ -16,7 +16,7 @@ let people = [
 			'url("../images/testimonials/daniel.jpg")',
 		name: "Master Daniel",
 		profession: "WRITER",
-		description: "The AMAP course has been a game-changer for my career. The comprehensive curriculum and hands-on training provided me with the skills and confidence needed to excel in the field. The instructors are industry experts who genuinely care about their students' success. I highly recommend this course to anyone looking to advance their career."
+		description: "The Ghost Writer course is incredibly thorough and well-structured. It covers everything from the basics to advanced techniques, with plenty of practical exercises. The feedback from instructors has been invaluable in improving my writing. This course has opened up new opportunities for me as a professional writer."
 	},
 
 	{
